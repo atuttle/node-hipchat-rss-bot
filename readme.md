@@ -24,7 +24,7 @@ git clone https://github.com/atuttle/node-hipchat-rss-bot.git hipchat-bot; cd hi
 heroku create --addons redistogo:nano
 ```
 
-Then make the changes detailed below.
+Then make the changes detailed in the **HipChat** and **Feeds** sections below.
 
 To test locally you need to have redis installed and running. The default configuration should be fine. Then start the bot with:
 
