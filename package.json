@@ -1,0 +1,21 @@
+{
+  "name": "node-hipchat-rss-bot",
+  "version": "0.1.0",
+  "description": "watch rss feed and notify hipchat room when there's something new",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "repository": "",
+  "author": "Adam Tuttle (adam@fusiongrokker.com)",
+  "license": "MIT",
+  "dependencies": {
+    "feedparser": "~0.10.8",
+    "redis": "~0.8.2",
+    "node-hipchat": "~0.2.0"
+  }
+}
