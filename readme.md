@@ -1,6 +1,14 @@
 # Node HipChat RSS Bot
 
-Monitors multiple RSS feeds, and when a new item is found, pushes a link into a HipChat room. Can run perpetually, for free, on Heroku.
+I use this, among other things, to push application exception notifications into my team's HipChat room.
+
+![Pushing exception logs into a HipChat room](https://www.evernote.com/shard/s240/sh/6c0c9546-c98d-4e83-9aef-ca63f20bbc65/a5c8c318a260bc65d878951ce585f18c/deep/0/Screenshot%202/21/13%2010:50%20PM.jpg)
+
+It's designed to monitor multiple RSS feeds of your choosing, and when a new item is found, push a link into a HipChat room.
+
+> ## It can run perpetually, _for free_, on Heroku!
+
+> ![Running for free on Heroku!](https://www.evernote.com/shard/s240/sh/63463d97-61fc-43e3-b71a-ecb68229156b/431e10d4e8e178d35ad5a4cf38e006de/deep/0/Screenshot%202/21/13%2010:46%20PM.jpg)
 
 Everything is configurable. Each feed can have a unique:
 
