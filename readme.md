@@ -29,12 +29,13 @@ Everything is configurable. Each feed can have a unique:
 gem install heroku
 gem install foreman
 git clone https://github.com/atuttle/node-hipchat-rss-bot.git hipchat-bot; cd hipchat-bot
+npm install
 heroku create --addons redistogo:nano
 ```
 
 Then make the changes detailed in the **HipChat** and **Feeds** sections below.
 
-To test locally you need to have redis installed and running. The default configuration should be fine. Then start the bot with:
+To run it locally you need to have redis installed and running (the default configuration should be fine) and of course Node 0.8.x+. Then start the bot with:
 
 ```bash
 foreman start
